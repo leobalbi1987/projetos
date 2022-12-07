@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+<img src="cras-logo-rj.png" width="150px" 
+alt="" srcset="">
+
+    </header>
+    
+ <div class="box">
+    <form action="" method="POST"> 
+      <fieldset>
+          <legend> <B> Agendamento CRAS  2022 </B> </legend>
+        <br>
+        <div class="inputBox">
+        <label for="nome">Nome </label>
+          <input type="text" name="nome" id="nome" size="20" maxlength="30" placeholder="nome completo">
+          </div>
+          <br>
+
+          <div class="inputBox">
+            <label for="endereço">Endereço</label>
+              <input type="text" name="end" id="end" size="50" maxlength="100" placeholder="endereço">
+              </div>
+              <br>
+          <div class="inputBox">
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone"  size="7"  maxlength="12" placeholder="telefone">
+            </div>
+            <br>
+
+            <p>Sexo</p>
+           
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino" checked  required>
+            <label for="feminino">feminino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino" required>
+            <br>
+            <br>
+            <div class="inputBox">
+          <label for="RG">RG</label>
+          <input type="text" name="RG" id="RG"  size="7"  maxlength="12" placeholder="RG" required>
+          </div>
+          <br>
+          <div class="inputBox">
+            <label for="nasc">Data de Nascimento</label>
+            <input type="date" name="nasc" id="nasc" size="7" maxlength="10" placeholder="Data de nascimento">
+        </div>
+        <br>
+            <label for="ass">Assunto</label>
+            <select name="ass" id="ass">
+         <option value="">cad unico</option>
+         <option value="">Cadastro Bolsa familia</option>
+         <option value="">Atualização Bolsa familia</option>
+         <option value="">Entrega folha resumo</option>
+         <option value="">Outros</option>
+         
+         </select>
+         <br>
+         <br>
+ <input type="submit" name="submit" value="Enviar" id="submit">
+ 
+  </fieldset>
+  
+</form>
+
+</div>
+
+</body>
+
+</html>
